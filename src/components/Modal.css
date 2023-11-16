@@ -1,0 +1,59 @@
+.modalBackground {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.modalContainer {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userDetail {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  justify-content: center;
+}
+
+.userDetail p {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+}
+
+.closeButton:hover {
+  color: #1d1a1a;
+}
+
+.closeButton .AiFillCloseCircle {
+  font-size: 2em;
+}

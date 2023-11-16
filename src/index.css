@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: lightgray; */
+}
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  color: antiquewhite;
+  transition: border-color 0.25s;
+} */
+
+
+.card-link {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+.card-body{
+  background-color: rgba(67, 75, 82, 0.95);
+}
+.grey{
+  background-color: #d8d3dde0;
+}
+.red{
+  background-color: rgb(185, 173, 173);
+}
+.green{
+  background-color: white;
+}
